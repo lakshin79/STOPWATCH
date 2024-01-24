@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar"> 
+        <h1 id="navtext">STOPWATCH</h1>
+    </nav>
+   <div>
+        
+        <form id="form">
+            <div class="fields">
+            <label for="task">TASK</label>
+            <input type="text" id="task" placeholder="ENTER YOUR TASK">
+
+            <label for="description" >DESCRIPTION</label>
+            <input type="text" id="description" placeholder="ENTER YOUR DESCRIPTION">
+        </form>
+        </div>
+
+        <div class="stoptable">
+        <div class="stopwatch">
+        <button id="start">START</button><br><br>
+            <p id="count">0 Hrs : 0 Minutes : 0 Seconds</p><br><br>
+            <button id="reset">RESET</button>
+        </div>
+        
+        <div>
+        <table id="table" border="1">
+            <tr>
+                <th>Task</th>
+                <th>Description</th>
+                <th>Timing</th>
+            </tr> 
+        </table>
+        </div>
+        </div>
+   </div>
+</body>
+<script src="app.js"></script>
+</html>

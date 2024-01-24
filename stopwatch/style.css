@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(138, 99, 99);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(246, 170, 28);
+}
+
+
+nav h1{
+    color: rgb(249, 245, 245);
+    font-size: 25px;
+}
+
+input{
+    height: 50px;
+    width: 1000px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: orangered;
+}
+
+.stopwatch{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: rgb(32, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+}
+
+input::placeholder{
+    text-align: center;
+}
+ #count, #time{
+    border: 0px;
+    color: white;
+    font-size: 30px;
+    background-color:rgb(32, 30, 30); 
+}
+
+#start{
+    border: 0px;
+    color: rgb(70, 207, 70);
+    font-size: 30px;
+    background-color:rgb(32, 30, 30); 
+}
+
+#start:hover{
+    color: rgb(36, 122, 36);
+    font-weight: 500;
+}
+.fields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    margin: 4rem;
+}
+
+
+div input{
+    margin: 1rem 0;
+}
+
+label{
+    color:rgb(246, 170, 28);
+    font-size: 30px;
+}
+
+.stoptable{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3rem;
+}
+
+th,td,tr{
+    padding: 20px;
+    color: white;
+    border: 3px solid rgb(246, 170, 28);
+    font-size: 1.5rem;
+
+}
+ td{
+    max-width: 400px;
+    line-break: strict;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} 
+
+#reset{
+    border: 0px;
+    color: rgb(182, 93, 55);
+    font-size: 30px;
+    background-color:rgb(32, 30, 30); 
+}
